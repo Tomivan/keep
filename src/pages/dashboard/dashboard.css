@@ -1,0 +1,77 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8em;
+    margin-left: 17%;
+    border-bottom: 1px solid #0000001e;
+}
+.body{
+    display: flex;
+    margin-left: 10%;
+    background-color: #ffffff;
+}
+.stat-icon{
+    padding-right: .5em;
+}
+.requests, .notifications{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.requests-box, .notifications-box, .recent-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.requests-box, .notifications-box{
+    width: 50vw;
+}
+.notifications-box, .recent-box{
+    flex-direction: column;
+}
+.status, .info, .top, .statistics{
+    display: flex;
+    padding-top: .3em
+}
+.status,.status p, .info p, h5, h6{
+    margin-left: 5%;
+}
+.right{
+    width: 38%;
+    margin: 1.5% 0 0 5%;
+}
+.right-p{
+    margin-left: 20%;
+    font-weight: bold;
+  
+}
+.requests p{
+    font-weight: bold;
+}
+.graph{
+    margin-top: 5%;
+}
+.status-icon{
+    margin-left: 80%;
+}
+.notification{
+    margin-bottom: 3%;
+    border-left: 3px solid red;
+}
+.gradient p{
+    font-size: 13px;
+    margin-left: 12%;
+}
+.round{
+    height: 1vh;
+    width: .6vw;
+    border-radius: 50%;
+    background: #429ed3;
+    margin: 1.5% 0 0 3%;
+}

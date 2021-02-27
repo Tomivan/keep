@@ -1,0 +1,62 @@
+.background{
+    width: 100%
+}
+.login-form{
+    margin-left: 37%;
+    margin-top: -50%;
+    background: #ffffff;
+    width: 30%;
+    height: 75vh;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 1.5em;
+    position: absolute;
+    z-index: 10;
+}
+.logo{
+    padding: 3em;
+}
+h2{
+    margin-left: 10%;
+    padding-bottom: .5em;
+}
+.login-form p{
+    margin-left: 10%;
+    color: #a6a6a6;
+}
+input{
+    padding: .3em ;
+    border: 1px solid #0000001e;
+    height: 5vh;
+    width: 75%;
+    margin-left: 10%;
+}
+label {
+    margin: 10% 0 0 10%;
+    font-size: .7em;
+    padding-bottom: .7em;
+    display: flex;
+    justify-content: flex-start;
+    color: #1d1d1d99;
+}
+input::placeholder {
+    color: #dfdfdf;
+    padding-left: 1em;
+}
+.login-button{
+    color: #ffffff;
+    background: #49AFEA;
+    width: 75%;
+    height: 6vh;
+    margin: 5% 0 0 10%;
+    border: none;
+    border-radius: 3px;
+}
+.password-link{
+    text-decoration: none;
+    font-size: 14px;
+}
+.password{
+    margin: 3% 0 0 45%;
+}

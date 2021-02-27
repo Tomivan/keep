@@ -1,0 +1,29 @@
+.add-staff{
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color:#49AFEA ;
+    margin-left: 8%;
+}
+.multiple-staff{
+    height: 5vh;
+    width: 10vw;
+    border: 1px solid #49AFEA;
+    border-radius: 3px;
+    color: #49AFEA;
+    background-color:#ffffff; 
+    margin-left: -8%;
+}
+.staff-info{
+    display: flex;
+    justify-content: space-between;
+}
+.user-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.staff-table{
+    width: 72vw;
+}

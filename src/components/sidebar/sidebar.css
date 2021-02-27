@@ -1,0 +1,16 @@
+.nav-heading{
+    display: flex;
+}
+.bx--side-nav__item{
+    margin-top: 10%;
+}
+.bx--side-nav__navigation{
+    border-right: 1px solid #0000001e;
+}
+.nav-icon{
+    margin-right: 1em;
+    height: 2vh;
+}
+.dashboard-logo{
+    margin-left: 4%;
+}

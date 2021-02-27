@@ -1,0 +1,47 @@
+.create-container{
+    margin: 2% 0 0 20%;
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 3em;
+    width: 78vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.span{
+    color: red;
+}
+.label{
+    font-size: 16px;
+    margin: 3% 0 0 0;
+}
+.select{
+    height: 5vh;
+    width: 65vw;
+    border-color: #a6a6a6a8;
+}
+.textarea{
+    width: 65vw;
+    height: 15vh;
+    border-color: #a6a6a6a8;
+}
+.continue{
+    color: #ffffff;
+    background-color: #49AFEA;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+    width: 12vw;
+    margin-top: 2%;
+    font-size: 16px;
+}
+.required{
+    color: #a6a6a6;
+}
+.heading-left{
+    display: flex;
+    margin-top: 1%;
+}
+.icon{
+    margin-top: 2%;
+    padding-right: .5em;
+}

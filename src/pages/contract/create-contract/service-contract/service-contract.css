@@ -1,0 +1,48 @@
+.form-top{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-form{
+    background-color: #b4b4b44c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+    width: 10vw;
+}
+.added-items{
+    text-align: center;
+}
+.inner{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -5%;
+}
+.left-label, .right-label{
+    font-size: 16px;
+    margin-left: 0;
+}
+.left-input, .right-input{
+    margin-left: 0;
+    width: 30vw;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.add-item{
+    color: #ffffff;
+    background-color: #49AFEA;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+    width: 12vw;
+    font-size: 16px;
+    margin-top: 3%;
+}
